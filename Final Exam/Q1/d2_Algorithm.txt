@@ -1,0 +1,14 @@
+ALG:
+    input {Y0, Y1, ... , Yn}, {A0, A1, ... ,An-1}
+    result = []
+    Xi stores the xy-coordinate of all cells surrounded by i blocks for i from 0 to 8
+    result = [find all cells with observation Y0]
+    for j from 0 to n-1:
+        temp_set = result
+        result.clear()
+        for cell in temp_set:
+            x_new, y_new = Aj(cell.x, cell.y)
+            if [x_new, y_new] is in set Xi which satisfies Yj+1:
+                result.append([x_new, y_new])
+        temp_set.clear()
+    return result

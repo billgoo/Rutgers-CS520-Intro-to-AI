@@ -1,0 +1,4 @@
+,p,dim,dfs_avg_node,dfs_success,bfs_avg_node,bfs_success,e_astar_avg_node,e_astar_success,m_astar_avg_node,m_astar_success
+0,0.1,160,354.7894737,95,318,95,318,95,318,95
+1,0.2,160,427.425,80,318.025,80,318.025,80,318.025,80
+2,0.3,160,554.5,48,321.5833333,48,321.5833333,48,321.5833333,48
